@@ -44,31 +44,23 @@ public class MarksCalculator {
 //	        char averageChar = total / 3;
 //	        System.out.println("Average marks (as Char): " + averageChar);
 	        
-//	        11. Checking Students passed or not in Math - here using boolean
+//	        11. Checking whether Students passed or not in Math - here using boolean
 	        boolean passInMath = (math >= 33);
 	        System.out.println("Passed in Math (Using Boolean): " +passInMath);
 	        
-//	        12. Checking Students passed or not in Science - here using boolean
+//	        12. Checking whether Students passed or not in Science - here using boolean
 	        boolean passInScience = (science >= 33);
 	        System.out.println("Passed in Science (Using Boolean): " +passInScience);
 	        
-//	        13. Checking Students passed or not in English - here using boolean
+//	        13. Checking whether Students passed or not in English - here using boolean
 	        boolean passInEnglish = (english >= 33);
 	        System.out.println("Passed in English (Using Boolean): " +passInEnglish);
 	        
-//	        14.Printing Pass if student is pass - here using char error is coming, need to ask
+//	        14.Printing Pass if student is passed - here using char error is coming, need to ask
 //	        char grade = (average >= 90);
 //	        System.out.println("GRADE A: " +grade);
 	        
-	        
-	        
-	        
-	        
-	        
-	        
-	        // Note the difference:
-	        // Using double retains the decimal points, giving a more accurate average,
-	        // while using int truncates the value, losing fractional precision.
 	    }
 	}
+
 
